@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background: rgb(150, 185, 97);
+    min-height: 100vh;
+    background-size: 100vw, 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board {
+    height: 80vmin;
+    width: 80vmin;
+    background: rgb(196, 163, 80);
+    border: .5rem solid black;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.snake-head {
+    background: rgb(69, 69, 226);
+    border: 2px solid rgb(34, 4, 34);
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+
+.snake-body {
+    background-color: rgb(119, 47, 173);
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+
+.food {
+    background: rgb(223, 76, 76);
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
+
+.score-card {
+    height: 20vmin;
+    width: 30vmin;
+    position: absolute;
+    top: 5vmin;
+    left: 5vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-card p {
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+@media(max-width: 480px) {
+    .score-card p {
+        font-size: 22px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    }
+}
