@@ -1,5 +1,8 @@
 #snakeGame
 
+preview: 
+Link - [click here](https://snake-game-subhendu.netlify.app/)
+
 Snake Game : <br>
     -> This is a classic Snake Game implemented using pure HTML, CSS, and JavaScript. It's a simple yet addictive game where the player controls a snake to eat food and grow longer while avoiding collisions with itself and the boundaries of the game board.<br><br>
 Gameplay : <br>
