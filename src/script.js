@@ -125,7 +125,6 @@ function snakeGame() {
 
 window.requestAnimationFrame(main);
 
-// CODE BY CHATGpt
 
 // Function to handle touch events
 function handleTouchStart(e) {
